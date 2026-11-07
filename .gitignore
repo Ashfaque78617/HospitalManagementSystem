@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+
+# React
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Test files
+TestResults/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local backend configuration
+backend/HospitalManagement.Api/appsettings.json
